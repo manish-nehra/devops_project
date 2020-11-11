@@ -1,0 +1,72 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< devops_class_project:Class-Project >-----------------
+[INFO] Building Generic 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot-maven-plugin:2.3.5.RELEASE:run (default-cli) > test-compile @ Class-Project >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ Class-Project ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ Class-Project ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /home/law/playground/devops_project/target/classes
+[INFO] /home/law/playground/devops_project/src/main/java/devops_class_project/Class/Project/GenericApplication.java: /home/law/playground/devops_project/src/main/java/devops_class_project/Class/Project/GenericApplication.java uses or overrides a deprecated API.
+[INFO] /home/law/playground/devops_project/src/main/java/devops_class_project/Class/Project/GenericApplication.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ Class-Project ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/law/playground/devops_project/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ Class-Project ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /home/law/playground/devops_project/target/test-classes
+[INFO] 
+[INFO] <<< spring-boot-maven-plugin:2.3.5.RELEASE:run (default-cli) < test-compile @ Class-Project <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.3.5.RELEASE:run (default-cli) @ Class-Project ---
+[INFO] Attaching agents: []
+FirebaseApp Authenticated and Connected
+java.lang.IllegalStateException: FirebaseApp name [DEFAULT] already exists!
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.5.RELEASE)
+
+2020-11-11 16:20:03.277  INFO 44702 --- [  restartedMain] d.Class.Project.GenericApplication       : Starting GenericApplication on law with PID 44702 (/home/law/playground/devops_project/target/classes started by law in /home/law/playground/devops_project)
+2020-11-11 16:20:03.280  INFO 44702 --- [  restartedMain] d.Class.Project.GenericApplication       : No active profile set, falling back to default profiles: default
+2020-11-11 16:20:03.348  INFO 44702 --- [  restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in /home/law/.m2/repository/io/grpc/grpc-netty-shaded/1.30.0/grpc-netty-shaded-1.30.0.jar referenced one or more files that do not exist: file:/home/law/.m2/repository/io/grpc/grpc-netty-shaded/1.30.0/grpc-core-1.30.0.jar,file:/home/law/.m2/repository/io/grpc/grpc-netty-shaded/1.30.0/grpc-api-1.30.0.jar,file:/home/law/.m2/repository/io/grpc/grpc-netty-shaded/1.30.0/gson-2.8.6.jar,file:/home/law/.m2/repository/io/grpc/grpc-netty-shaded/1.30.0/annotations-4.1.1.4.jar,file:/home/law/.m2/repository/io/grpc/grpc-netty-shaded/1.30.0/animal-sniffer-annotations-1.18.jar,file:/home/law/.m2/repository/io/grpc/grpc-netty-shaded/1.30.0/error_prone_annotations-2.3.4.jar,file:/home/law/.m2/repository/io/grpc/grpc-netty-shaded/1.30.0/guava-28.2-android.jar,file:/home/law/.m2/repository/io/grpc/grpc-netty-shaded/1.30.0/perfmark-api-0.19.0.jar,file:/home/law/.m2/repository/io/grpc/grpc-netty-shaded/1.30.0/jsr305-3.0.2.jar,file:/home/law/.m2/repository/io/grpc/grpc-netty-shaded/1.30.0/grpc-context-1.30.0.jar,file:/home/law/.m2/repository/io/grpc/grpc-netty-shaded/1.30.0/failureaccess-1.0.1.jar,file:/home/law/.m2/repository/io/grpc/grpc-netty-shaded/1.30.0/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,file:/home/law/.m2/repository/io/grpc/grpc-netty-shaded/1.30.0/checker-compat-qual-2.5.5.jar,file:/home/law/.m2/repository/io/grpc/grpc-netty-shaded/1.30.0/j2objc-annotations-1.3.jar
+2020-11-11 16:20:03.348  INFO 44702 --- [  restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in /home/law/.m2/repository/io/grpc/grpc-alts/1.30.0/grpc-alts-1.30.0.jar referenced one or more files that do not exist: file:/home/law/.m2/repository/io/grpc/grpc-alts/1.30.0/grpc-auth-1.30.0.jar,file:/home/law/.m2/repository/io/grpc/grpc-alts/1.30.0/grpc-grpclb-1.30.0.jar,file:/home/law/.m2/repository/io/grpc/grpc-alts/1.30.0/grpc-protobuf-1.30.0.jar,file:/home/law/.m2/repository/io/grpc/grpc-alts/1.30.0/grpc-stub-1.30.0.jar,file:/home/law/.m2/repository/io/grpc/grpc-alts/1.30.0/commons-lang3-3.5.jar,file:/home/law/.m2/repository/io/grpc/grpc-alts/1.30.0/protobuf-java-util-3.12.0.jar,file:/home/law/.m2/repository/io/grpc/grpc-alts/1.30.0/protobuf-java-3.12.0.jar,file:/home/law/.m2/repository/io/grpc/grpc-alts/1.30.0/conscrypt-openjdk-uber-2.2.1.jar,file:/home/law/.m2/repository/io/grpc/grpc-alts/1.30.0/google-auth-library-oauth2-http-0.20.0.jar,file:/home/law/.m2/repository/io/grpc/grpc-alts/1.30.0/grpc-netty-shaded-1.30.0.jar,file:/home/law/.m2/repository/io/grpc/grpc-alts/1.30.0/grpc-core-1.30.0.jar,file:/home/law/.m2/repository/io/grpc/grpc-alts/1.30.0/grpc-protobuf-lite-1.30.0.jar,file:/home/law/.m2/repository/io/grpc/grpc-alts/1.30.0/grpc-api-1.30.0.jar,file:/home/law/.m2/repository/io/grpc/grpc-alts/1.30.0/guava-28.2-android.jar,file:/home/law/.m2/repository/io/grpc/grpc-alts/1.30.0/error_prone_annotations-2.3.4.jar,file:/home/law/.m2/repository/io/grpc/grpc-alts/1.30.0/google-auth-library-credentials-0.20.0.jar,file:/home/law/.m2/repository/io/grpc/grpc-alts/1.30.0/animal-sniffer-annotations-1.18.jar,file:/home/law/.m2/repository/io/grpc/grpc-alts/1.30.0/google-http-client-jackson2-1.34.0.jar,file:/home/law/.m2/repository/io/grpc/grpc-alts/1.30.0/google-http-client-1.34.0.jar,file:/home/law/.m2/repository/io/grpc/grpc-alts/1.30.0/perfmark-api-0.19.0.jar,file:/home/law/.m2/repository/io/grpc/grpc-alts/1.30.0/jsr305-3.0.2.jar,file:/home/law/.m2/repository/io/grpc/grpc-alts/1.30.0/proto-google-common-protos-1.17.0.jar,file:/home/law/.m2/repository/io/grpc/grpc-alts/1.30.0/auto-value-annotations-1.7.jar,file:/home/law/.m2/repository/io/grpc/grpc-alts/1.30.0/failureaccess-1.0.1.jar,file:/home/law/.m2/repository/io/grpc/grpc-alts/1.30.0/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,file:/home/law/.m2/repository/io/grpc/grpc-alts/1.30.0/checker-compat-qual-2.5.5.jar,file:/home/law/.m2/repository/io/grpc/grpc-alts/1.30.0/j2objc-annotations-1.3.jar,file:/home/law/.m2/repository/io/grpc/grpc-alts/1.30.0/grpc-context-1.30.0.jar,file:/home/law/.m2/repository/io/grpc/grpc-alts/1.30.0/gson-2.8.6.jar,file:/home/law/.m2/repository/io/grpc/grpc-alts/1.30.0/annotations-4.1.1.4.jar,file:/home/law/.m2/repository/io/grpc/grpc-alts/1.30.0/httpclient-4.5.10.jar,file:/home/law/.m2/repository/io/grpc/grpc-alts/1.30.0/httpcore-4.4.12.jar,file:/home/law/.m2/repository/io/grpc/grpc-alts/1.30.0/opencensus-contrib-http-util-0.24.0.jar,file:/home/law/.m2/repository/io/grpc/grpc-alts/1.30.0/opencensus-api-0.24.0.jar,file:/home/law/.m2/repository/io/grpc/grpc-alts/1.30.0/jackson-core-2.10.1.jar,file:/home/law/.m2/repository/io/grpc/grpc-alts/1.30.0/commons-logging-1.2.jar,file:/home/law/.m2/repository/io/grpc/grpc-alts/1.30.0/commons-codec-1.11.jar
+2020-11-11 16:20:03.349  INFO 44702 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-11-11 16:20:03.349  INFO 44702 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-11-11 16:20:04.604  INFO 44702 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-11-11 16:20:04.617  INFO 44702 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-11 16:20:04.618  INFO 44702 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-11 16:20:04.699  INFO 44702 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-11 16:20:04.699  INFO 44702 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1350 ms
+2020-11-11 16:20:05.301  INFO 44702 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-11 16:20:05.385  INFO 44702 --- [  restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-11-11 16:20:05.510  WARN 44702 --- [  restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-11-11 16:20:05.597  INFO 44702 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-11 16:20:05.627  INFO 44702 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-11 16:20:05.638  INFO 44702 --- [  restartedMain] d.Class.Project.GenericApplication       : Started GenericApplication in 2.702 seconds (JVM running for 3.233)
+2020-11-11 16:20:22.206  INFO 44702 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-11 16:20:22.206  INFO 44702 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-11 16:20:22.212  INFO 44702 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+java.lang.NullPointerException
+java.lang.NullPointerException
+2020-11-11 16:20:30.199  INFO 44702 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  31.580 s
+[INFO] Finished at: 2020-11-11T16:20:30+05:30
+[INFO] ------------------------------------------------------------------------
